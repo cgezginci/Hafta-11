@@ -86,7 +86,7 @@ returnDate (Kitabın teslim edildiği tarih, ilk kayıtta null olacak. Kitap tes
 
 ![Ekran Görüntüsü (37)](https://github.com/cgezginci/Hafta-11/assets/143842154/e1f0c3d1-3af4-4b23-9c82-5d4abd553de7)
 
-*Kitap Kategori Tablosu
+* Kitap Kategori Tablosu
 
 ![Ekran Görüntüsü (38)](https://github.com/cgezginci/Hafta-11/assets/143842154/c6a9e3e5-21c1-4345-8aa8-ea145b54a7c4)
 
