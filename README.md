@@ -11,13 +11,9 @@ Yayın Evi : Yayınevlerinin özelliklerini içeren entity/tablo.
 Kitap Ödünç Alınması : Kitap ödünç alma işlemlerini izleyen entity/tablo. Bu tablo, ödünç alınan kitabın kim tarafından alındığını, alınma tarihini ve teslim tarihini içerecektir.
 
 Her bir varlık için temel değişkenler aşağıdaki gibidir.
-borrowerName (Kitap ödünç alan kişi adı soyadı)
 
-borrowingDate (Kitap ödünç alma tarihi)
 
-returnDate (Kitabın teslim edildiği tarih, ilk kayıtta null olacak. Kitap teslim edilince tarih güncellenecek)
-
-# Kitap (Book)
+# Kitap (books)
 
 id (Benzersiz kitap kimliği)
 
@@ -29,7 +25,7 @@ stock (Kütüphanedeki miktarı)
 
 ---
 
-# Yazar (Author)
+# Yazar (authors)
 
 id (Benzersiz yazar kimliği)
 
@@ -41,7 +37,7 @@ country (Yazarın ülkesi)
 
 ---
 
-# Kategoriler (Category)
+# Kategoriler (categories)
 
 id (Benzersiz kategori kimliği)
 
@@ -51,7 +47,7 @@ description (Kategori tanımı)
 
 ---
 
-# Yayınevi (Publisher)
+# Yayınevi (publishers)
 
 id (Benzersiz kimliği)
 
@@ -63,8 +59,8 @@ address (Yayınevi adresi)
 
 ---
 
-# Kitap Ödünç Alma (BookBorrowing)
-![03b77776-dfec-449b-8590-8936cc5ae846](https://github.com/cgezginci/Hafta-11/assets/143842154/aa8dfa43-ceb0-408c-b943-29813fb27048)
+# Kitap Ödünç Alma (bookborrowings)
+
 
 id (Benzersiz kimliği)
 
@@ -73,5 +69,33 @@ borrowerName (Kitap ödünç alan kişi adı soyadı)
 borrowingDate (Kitap ödünç alma tarihi)
 
 returnDate (Kitabın teslim edildiği tarih, ilk kayıtta null olacak. Kitap teslim edilince tarih güncellenecek)
+
+* Yazar Tablosu
+  
+ ![Ekran Görüntüsü (34)](https://github.com/cgezginci/Hafta-11/assets/143842154/64f2c587-0146-430e-a6d1-7c0af23160e5)
+
+* Yayınevi Tablosu
+
+![Ekran Görüntüsü (36)](https://github.com/cgezginci/Hafta-11/assets/143842154/1baaf473-05ca-45e8-ba96-ba99d97ca9bd)
+
+* Kitap Tablosu
+
+![Ekran Görüntüsü (35)](https://github.com/cgezginci/Hafta-11/assets/143842154/583b5dae-0206-42ae-98fe-3b8dbb0b3368)
+
+* Kategori Tablosu
+
+![Ekran Görüntüsü (37)](https://github.com/cgezginci/Hafta-11/assets/143842154/e1f0c3d1-3af4-4b23-9c82-5d4abd553de7)
+
+*Kitap Kategori Tablosu
+
+![Ekran Görüntüsü (38)](https://github.com/cgezginci/Hafta-11/assets/143842154/c6a9e3e5-21c1-4345-8aa8-ea145b54a7c4)
+
+* Kitap Ödünç Alma Tablosu
+  
+![Ekran Görüntüsü (39)](https://github.com/cgezginci/Hafta-11/assets/143842154/18335084-f775-42d5-a069-f4435c09e02e)
+
+
+
+
 
 
