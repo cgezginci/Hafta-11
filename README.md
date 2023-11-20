@@ -64,6 +64,7 @@ address (Yayınevi adresi)
 ---
 
 # Kitap Ödünç Alma (BookBorrowing)
+![03b77776-dfec-449b-8590-8936cc5ae846](https://github.com/cgezginci/Hafta-11/assets/143842154/aa8dfa43-ceb0-408c-b943-29813fb27048)
 
 id (Benzersiz kimliği)
 
@@ -72,3 +73,5 @@ borrowerName (Kitap ödünç alan kişi adı soyadı)
 borrowingDate (Kitap ödünç alma tarihi)
 
 returnDate (Kitabın teslim edildiği tarih, ilk kayıtta null olacak. Kitap teslim edilince tarih güncellenecek)
+
+
